@@ -57,7 +57,7 @@ https.get('https://api.openweathermap.org/data/2.5/forecast?lat='+request.query.
 			daysWeather.push(dayWeather);
 			}
 		}
-		resp += "\n\n        Days list of array:   " + JSON.stringify(daysWeather);
+		resp += " Days list of array: " + JSON.stringify(daysWeather);
 		
 	}else{
 	//error	
