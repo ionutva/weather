@@ -1,5 +1,7 @@
-# weather
-You must have node installed on your machine
+# Weather
+You must have nodejs and npm installed on your machine
+
+First build the project with "npm install" to get the dependencies
 
 The application is starting with "node index.js"
 
