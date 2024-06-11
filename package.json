@@ -1,0 +1,15 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "Weather Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Ionut",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
