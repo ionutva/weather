@@ -10,6 +10,6 @@ For example you can access in browser: http://localhost:3000/forecast?lat=81&lon
 
 The API KEY provided in the project description is not working so I created one
 
-The output is the averages for 5 days in Celsius and an aray of 5 days data
+The output is the averages for 5 days in Celsius and an aray of 5 days data ( https://openweathermap.org/forecast5 as it is in task description is for 5 days forecast)
 
 In case of wrong data the application will show the error thrown by the API
