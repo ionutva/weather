@@ -6,7 +6,7 @@ First build the project with "npm install" to get the dependencies
 The application is starting with "node index.js"
 
 After this you have to run localhost:3000/forecast for HTTP or https://localhost:4000/forecast for HTTPS (I have used openssl for HTTPS in order to not buy SSL certificates so you will see an warning first time) with lat, lon and API KEY as query parameters,
-For example you can access in browser: [http://localhost:3000/forecast?lat=81&lon=20.99](http://localhost:3000/forecast?lat=81&lon=20.99&appid=a33f680b48f33b4bfe49d51b4fa67f77)
+For example you can access in browser: http://localhost:3000/forecast?lat=81&lon=20.99&appid=a33f680b48f33b4bfe49d51b4fa67f77
 
 The API KEY provided in the project description is not working so I created one
 
