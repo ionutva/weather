@@ -12,6 +12,7 @@ The API KEY provided in the project description is not working so I created one
 
 The output is:
 1.the averages for 5 days in Celsius and 
+
 2.an aray of 5 days data ( https://openweathermap.org/forecast5 as it is in task description is for 5 days forecast). Search after "Days list of array:" to see the the data organized by days
 
 In case of wrong data the application will show the error thrown by the API
