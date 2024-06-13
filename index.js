@@ -35,8 +35,8 @@ https.get('https://api.openweathermap.org/data/2.5/forecast?lat='+request.query.
 		let average = [];
 		let data = [];
 		for(let i = 0; i < weatherJSON.list.length; i = i + 8){
-			data.push({day:Math.round(i / 8) + 1, averrage: (weatherJSON.list[i].main.temp + weatherJSON.list[i+1].main.temp + weatherJSON.list[i+2].main.temp + weatherJSON.list[i+3].main.temp
-			+weatherJSON.list[i+4].main.temp + weatherJSON.list[i+5].main.temp + weatherJSON.list[i+6].main.temp + weatherJSON.list[i+7].main.temp / 8).toFixed(2)}); 
+			data.push({day:Math.round(i / 8) + 1, averrage: ((weatherJSON.list[i].main.temp + weatherJSON.list[i+1].main.temp + weatherJSON.list[i+2].main.temp + weatherJSON.list[i+3].main.temp
+			+weatherJSON.list[i+4].main.temp + weatherJSON.list[i+5].main.temp + weatherJSON.list[i+6].main.temp + weatherJSON.list[i+7].main.temp) / 8).toFixed(2)}); 
 		
 		}
 		resp += JSON.stringify(data); 
